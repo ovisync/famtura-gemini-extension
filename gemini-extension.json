@@ -1,0 +1,23 @@
+{
+  "name": "famtura",
+  "version": "1.0.0",
+  "description": "Famtura business data — customers, invoices, projects and tasks — for Gemini CLI.",
+  "mcpServers": {
+    "famtura": {
+      "httpUrl": "https://api.famtura.de/mcp",
+      "headers": {
+        "Authorization": "ApiKey ${FAMTURA_API_KEY}"
+      },
+      "timeout": 60000
+    }
+  },
+  "settings": [
+    {
+      "name": "Famtura API Key",
+      "description": "Your Famtura API key (starts with ftu_). Create one in Famtura under Settings → API access.",
+      "envVar": "FAMTURA_API_KEY",
+      "sensitive": true
+    }
+  ],
+  "contextFileName": "GEMINI.md"
+}
