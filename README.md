@@ -10,7 +10,7 @@ projects, tasks and more) directly in Gemini CLI.
 2. Install the extension:
 
    ```
-   gemini extensions install https://github.com/<your-org>/famtura-gemini-extension
+   gemini extensions install https://github.com/ovisync/famtura-gemini-extension
    ```
 
 3. When asked, paste your API key. It is stored in the system keychain.
